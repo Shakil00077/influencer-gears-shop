@@ -19,7 +19,7 @@ body {
 }
 .btn {
   background-color: #e02c6d;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border-radius: 20px;
   border: none;
   margin-top: 10px;
@@ -54,13 +54,25 @@ body {
 .product {
   border-radius: 10px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  padding: 10px;
 }
 .product-img {
   text-align: center;
 }
-.product-text {
-  padding: 10px;
+.product-text i {
+  color: #fb8200;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.see-more {
+  display: flex;
+  justify-content: end;
+}
+.see-more-btn {
+  border: none;
+  color: #e02c6d;
+  background-color: white;
+  font-weight: 800;
 }
 .featured-area {
   margin: 60px 0px;
@@ -81,4 +93,8 @@ footer {
   text-align: center;
   padding: 20px;
   color: white;
+}
+.footer-text i {
+  color: white;
+  cursor: pointer;
 }
